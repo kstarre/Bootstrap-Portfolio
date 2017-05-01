@@ -3,60 +3,84 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>About Me</title>
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">Katie Starrett</a>
-	    </div>
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	<header>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Katie Starrett</a>
+		    </div>
 
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Portfolio</a></li>
-	        <li><a href="#">Contact</a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-offset-1 col-md-6">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>About Me</h1>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Portfolio</a></li>
+		        <li><a href="#">Contact</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-6">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>About Me</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<img src="http://placehold.it/200x150" alt="Katie Starret profile picture">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet tempor magna. Nunc ac risus est. Proin at justo maximus, consectetur metus ac, efficitur tortor. Sed tristique tellus quis tempor sodales. Donec non mollis felis, ac molestie metus. Integer eget tortor tortor. Nunc elementum at diam at auctor. Aenean sed maximus sem, quis porta lectus. Morbi lacinia dui eget viverra condimentum. Aliquam lacinia nunc ac urna imperdiet, congue condimentum purus finibus.</p>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4 pull-left">
-						<img src="http://placehold.it/200x150" alt="Katie Starret profile picture">
+				<aside class="col-md-3">
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Connect with Me</h2>
+						</div>
 					</div>
-					<div class="col-md-12">
-						<p style="display: inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet tempor magna. Nunc ac risus est. Proin at justo maximus, consectetur metus ac, efficitur tortor. Sed tristique tellus quis tempor sodales. Donec non mollis felis, ac molestie metus. Integer eget tortor tortor. Nunc elementum at diam at auctor. Aenean sed maximus sem, quis porta lectus. Morbi lacinia dui eget viverra condimentum. Aliquam lacinia nunc ac urna imperdiet, congue condimentum purus finibus.</p>
-						<p>Paragraph 2</p>
+					<div class="row">
+						<div class="col-md-12">
+							<a href="#"><img src="assets/images/#" alt="GitHub" /></a>
+					        <a href="#"><img src="assets/images/#" alt="LinkedIn" /></a>
+					        <a href="#"><img src="assets/images/#" alt="Stack Overflow" /></a>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				
+				</aside>
 			</div>
 		</div>
-	</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			&copy Copyright 2017 Katie Starrett
+		</div>
+	</footer>
 </body>
 </html>
